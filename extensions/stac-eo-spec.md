@@ -58,6 +58,7 @@ The bands field of a `Item` is a dictionary where the index identifies a specifi
 | element             | type info | name                       | description                                                  |
 | ------------------- | --------- | -------------------------- | ------------------------------------------------------------ |
 | common_name         | string    | Common name                | The name commonly used to refer to this specific band (see below) |
+| description         | string    | Description                | Description to fully explain the band. [CommonMark 0.28](http://commonmark.org/) syntax MAY be used for rich text representation. |
 | gsd                 | number    | Ground sample distance     | The average distance between pixel centers as measured in meters on the ground. Defaults to eo:gsd if not provided |
 | accuracy            | number    | Geolocation Accuracy       | The expected accuracy of the scene registration, in meters   |
 | center_wavelength   | number    | Center wavelength          | The center wavelength of the band, in microns                |
